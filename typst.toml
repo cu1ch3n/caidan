@@ -7,7 +7,7 @@ repository = "https://github.com/cu1ch3n/caidan"
 authors = ["Chen Cui <@cu1ch3n>"]
 license = "MIT"
 description = "A clean and minimal food menu template"
-keywords = ["food", "cuisine", "restaraunt", "cafe", "menu"]
+keywords = ["food", "cuisine", "restaurant", "cafe", "menu"]
 categories = ["flyer"]
 exclude = ["example.pdf"]
 

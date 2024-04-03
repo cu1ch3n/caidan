@@ -69,7 +69,7 @@
   )
   let frame_horiz_line_dx = frame.dx + frame_font_size + .3em
 
-  let seperator_vert_line = line(
+  let separator_vert_line = line(
     length: page_height,
     angle: 90deg,
     stroke: (paint: nord0, thickness: .5pt, dash: "dashed"),
@@ -81,19 +81,21 @@
     width: page_width,
     margin: (x: frame.dx + 2em, y: frame.dy + 4em),
     background: [
-      // Seperator lines
+      // separator lines
       #for i in range(num_columns - 1) {
         place(
           top + left,
           dx: (i + 1) * column_width,
-          seperator_vert_line,
+          separator_vert_line,
         )
       }
-      // Frame
+      
+      // frame
       #for i in range(num_columns) {
         let offset_xl = i * column_width
         let offset_xr = (num_columns - i - 1) * column_width
-        // Frame characters
+
+        // frame characters
         for j in range(4) {
           place(
             border_x.at(j) + border_y.at(j),
@@ -102,30 +104,40 @@
             frame_format(frame.chars.at(j)),
           )
         }
+
+        // left frame line
         place(
           top + left,
           dx: offset_xl + frame.dx + 7pt,
           dy: frame_vert_line_dy,
           frame_vert_line,
         )
+
+        // right frame line
         place(
           top + right,
           dx: -(offset_xr + 2 * frame.dx) + 4pt,
           dy: frame_vert_line_dy,
           frame_vert_line,
         )
+
+        // top frame line
         place(
           top + left,
           dx: offset_xl + frame_horiz_line_dx,
           dy: frame.dy + 4pt,
           frame_horiz_line,
         )
+
+        // bottom frame line
         place(
           bottom + left,
           dx: offset_xl + frame_horiz_line_dx,
           dy: -frame.dy + 4pt,
           frame_horiz_line,
         )
+
+        // page numbering
         place(
           bottom + left,
           dx: offset_xl + 0.5 * column_width,
