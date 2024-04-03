@@ -2,7 +2,7 @@
 
 Caidan (菜单 in Chinese, /cài dān/, meaning food menu) is a clean and minimal food menu template.
 
-See the [menu.pdf](https://files.cuichen.cc/menu.pdf) file to see how it looks.
+See the [example.pdf](https://github.com/cu1ch3n/caidan/blob/main/example.pdf) file to see how it looks.
 
 ## Usage
 
