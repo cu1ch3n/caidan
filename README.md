@@ -6,9 +6,9 @@ See the [example.pdf](https://github.com/cu1ch3n/caidan/blob/main/example.pdf) f
 
 ## Usage
 
-Ensure that [WebOMints GD], [LXGW WenKai], and [Ysabeau Infant] fonts are installed first. The required fonts are provided in `fonts`.
+Ensure that [WebOMints GD], [LXGW WenKai], and [Ysabeau Infant] fonts are installed first. The required fonts are provided in [fonts](https://github.com/cu1ch3n/caidan/tree/main/fonts).
 
-To use this template with typst.app, you may upload the `fonts` directory manually.
+To use this template with typst.app, you may upload the required fonts manually.
 
 ## Configuration
 
