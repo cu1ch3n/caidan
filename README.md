@@ -54,4 +54,4 @@ The function also accepts a single, positional argument for the body.
 [int]: https://typst.app/docs/reference/foundations/int/
 [WebOMints GD]: http://www.galapagosdesign.com/original/webomints.htm
 [LXGW WenKai]: https://github.com/lxgw/LxgwWenKai
-[Ysabeau Infant]: https://fonts.google.com/specimen/Libre+Baskerville
+[Ysabeau Infant]: https://fonts.google.com/specimen/Ysabeau+Infant
